@@ -63,8 +63,9 @@ const AllUsers = () => {
                                 <td>
                                     <button className='bg-green-100 p-2 rounded-full cursor-pointer hover:bg-green-500 hover:text-white' 
                                     onClick={()=>{
-                                      setUpdateUserDetails(el)
-                                      setOpenUpdateRole(true)
+                                        setUpdateUserDetails(el)
+                                        setOpenUpdateRole(true)
+
                                     }}
                                     >
                                         <MdModeEdit/>
@@ -86,7 +87,6 @@ const AllUsers = () => {
                     role={updateUserDetails.role}
                     userId={updateUserDetails._id}
                     callFunc={fetchAllUsers}
-                  
                 />
             )      
         }

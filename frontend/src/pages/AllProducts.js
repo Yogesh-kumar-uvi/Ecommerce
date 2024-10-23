@@ -20,7 +20,7 @@ const AllProducts = () => {
     fetchAllProduct()
   },[])
   
-  return (  
+  return (
     <div>
         <div className='bg-white py-2 px-4 flex justify-between items-center'>
             <h2 className='font-bold text-lg'>All Product</h2>
@@ -38,6 +38,9 @@ const AllProducts = () => {
             })
           }
         </div>
+
+
+
 
 
         {/**upload prouct component */}
