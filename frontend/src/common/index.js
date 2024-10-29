@@ -1,5 +1,6 @@
 const backendDomin = "https://ecommerce-9y2r.onrender.com"
 
+
 const SummaryApi = {
     signUP : {
         url : `${backendDomin}/api/signup`,
