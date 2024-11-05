@@ -9,7 +9,7 @@
 
 # Ignore OS-specific files
 .DS_Store
-Thumbs.db
+
 
 
 # Ignore log and cache files
