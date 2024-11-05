@@ -1,6 +1,8 @@
-const backendDomin = https://ecommerce-9y2r.onrender.com 
+const backendDomin = process.env.REACT_APP_BACKEND_URL;
 
-//process.env.REACT_APP_BACKEND_URL //"http://localhost:8080"
+//"http://localhost:8080"
+
+//https://ecommerce-9y2r.onrender.com // production backend
 
 
 const SummaryApi = {
