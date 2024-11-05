@@ -1,5 +1,5 @@
-const backendDomin = "https://ecommerce-9y2r.onrender.com"
-// const backendDomin = "http://localhost:8080"
+const backendDomin = process.env.REACT_APP_BACKEND_URL //"http://localhost:8080"
+
 
 const SummaryApi = {
     signUP : {
@@ -77,7 +77,20 @@ const SummaryApi = {
     filterProduct : {
         url : `${backendDomin}/api/filter-product`,
         method : 'post'
+    },
+    payment : {
+        url : `${backendDomin}/api/checkout`,
+        method  : 'post'
+    },
+    getOrder : {
+        url : `${backendDomin}/api/order-list`,
+        method : 'get'
+    },
+    allOrder : {
+        url : `${backendDomin}/api/all-order`,
+        method : 'get'
     }
+    
 }
 
 

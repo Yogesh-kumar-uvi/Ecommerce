@@ -17,7 +17,4 @@ Thumbs.db
 *.cache
 *.tmp
 
-# Ignore package lock files if you don’t want to commit them (optional)
-# /backend/package-lock.json
-# /frontend/package-lock.json
 
