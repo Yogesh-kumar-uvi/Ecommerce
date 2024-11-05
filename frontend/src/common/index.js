@@ -2,9 +2,6 @@ const backendDomin = process.env.REACT_APP_BACKEND_URL;
 
 //"http://localhost:8080"
 
-//https://ecommerce-9y2r.onrender.com // production backend
-
-
 const SummaryApi = {
     signUP : {
         url : `${backendDomin}/api/signup`,
