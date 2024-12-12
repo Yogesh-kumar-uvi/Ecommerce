@@ -44,27 +44,27 @@ const Footer = () => {
           </div>
 
           {/* Social Media Section */}
-          {/* Social Media Section */}
-<div className='px-5'>
-  <h4 className='font-bold text-lg mb-4 text-center'>Follow Us</h4>
-  <div className='flex justify-center space-x-4'>
-    <a href='https://www.facebook.com/profile.php?id=100066574772107' className='hover:text-blue-500'>
-      <FaFacebook size={24} />
-    </a>
-    <a href='https://x.com/YogeshKumaruvi' className='hover:text-blue-400'>
-      <FaTwitter size={24} />
-    </a>
-    <a href='https://www.instagram.com/yogeshkumaruvi/' className='hover:text-pink-500'>
-      <FaInstagram size={24} />
-    </a>
-    <a href='https://www.linkedin.com/in/yogeshkumaryuvi/' className='hover:text-blue-700'>
-      <FaLinkedin size={24} />
-    </a>
-    <a href='https://github.com/Yogesh-kumar-uvi/' className='hover:text-gray-700'>
-      <FaGithub size={24} />
-    </a>
-  </div>
-</div>
+          <div className='px-5'>
+            <h4 className='font-bold text-lg mb-4 text-center'>Follow Us</h4>
+            <div className='flex justify-center space-x-4'>
+              <a href='https://www.facebook.com/profile.php?id=100066574772107' className='hover:text-blue-500'>
+                <FaFacebook size={24} />
+              </a>
+              <a href='https://x.com/YogeshKumaruvi' className='hover:text-blue-400'>
+                <FaTwitter size={24} />
+              </a>
+              <a href='https://www.instagram.com/yogeshkumaruvi/' className='hover:text-pink-500'>
+                <FaInstagram size={24} />
+              </a>
+              <a href='https://www.linkedin.com/in/yogeshkumaryuvi/' className='hover:text-blue-700'>
+                <FaLinkedin size={24} />
+              </a>
+              <a href='https://github.com/Yogesh-kumar-uvi/' className='hover:text-gray-700'>
+                <FaGithub size={24} />
+              </a>
+            </div>
+          </div>
+
 
         </div>
         <div className='text-center mt-10'>
